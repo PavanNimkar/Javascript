@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your Favorite Songs are here</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="song-list-container">
+        <div class="song-list">
+          <h1>Songs</h1>
+          <div class="song-item">
+            <img src="covers/1.jpg" alt="" class="song-cover" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="song-list-play"
+              ><span>05:34</span>
+              <span
+                ><i
+                  class="fa-regular song-item-play fa-circle-play"
+                  id="1"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="song-item">
+            <img src="covers/2.jpg" alt="" class="song-cover" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="song-list-play"
+              ><span>05:34</span>
+              <span
+                ><i
+                  class="fa-regular song-item-play fa-circle-play"
+                  id="2"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="song-item">
+            <img src="covers/3.jpg" alt="" class="song-cover" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="song-list-play"
+              ><span>05:34</span>
+              <span
+                ><i
+                  class="fa-regular song-item-play fa-circle-play"
+                  id="3"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="song-item">
+            <img src="covers/4.jpg" alt="" class="song-cover" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="song-list-play"
+              ><span>05:34</span>
+              <span
+                ><i
+                  class="fa-regular song-item-play fa-circle-play"
+                  id="4"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="song-item">
+            <img src="covers/5.jpg" alt="" class="song-cover" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="song-list-play"
+              ><span>05:34</span>
+              <span
+                ><i
+                  class="fa-regular song-item-play fa-circle-play"
+                  id="5"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="song-banner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="my-progress-bar" value="0" />
+      <div class="icons">
+        <!-- fontwesome icons -->
+        <i class="fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-regular fa-circle-play" id="master-play"></i>
+        <i class="fa-solid fa-forward-step" id="next"></i>
+      </div>
+
+      <div class="song-info">Song Name</div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5d706254bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
